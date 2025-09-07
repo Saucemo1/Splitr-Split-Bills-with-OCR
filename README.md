@@ -9,7 +9,7 @@ Splitr is a simple tool that helps you scan receipts with OCR and split bills wi
 
 **How do I use it?**  
 1. Open the app.  
-2. Use the camera to scan your receipt.  
+2. use the camera to scan your receipt, or upload it directly from your device.  
 3. Review the scanned items.  
 4. Split costs among participants.
 
