@@ -25,28 +25,3 @@ Splitr does not store or share your receipts. Images are only used for OCR proce
 If you need more help, please email us at:  
 📧 mustafasami90@icloud.com
 
-<form id="support">
-  <input type="email" name="email" placeholder="Your email" required>
-  <input type="text" name="subject" placeholder="Subject" required>
-  <textarea name="message" placeholder="Message" required></textarea>
-  <button>Send</button>
-  <p id="msg" aria-live="polite"></p>
-</form>
-<script>
-document.getElementById('support').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const msg = document.getElementById('msg');
-  msg.textContent = 'Sending...';
-  const body = Object.fromEntries(new FormData(e.target).entries());
-  try {
-    const r = await fetch('https://YOURDOMAIN.vercel.app/api/contact', {
-      method: 'POST', headers: {'Content-Type':'application/json'},
-      body: JSON.stringify(body)
-    });
-    msg.textContent = r.ok ? 'Sent! We’ll reply shortly.' : 'Could not send. Email support@splitrapp.com.';
-  } catch {
-    msg.textContent = 'Network error. Email support@splitrapp.com.';
-  }
-});
-</script>
-
