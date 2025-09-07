@@ -25,3 +25,20 @@ Splitr does not store or share your receipts. Images are only used for OCR proce
 If you need more help, please email us at:  
 📧 mustafasami90@icloud.com
 
+<form
+  action="https://formspree.io/f/meolvroe"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+
