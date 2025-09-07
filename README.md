@@ -1,4 +1,4 @@
-# Splitr: Split Bills with OCR  - Support Page
+# Splitr Support
 
 Welcome to the Splitr support page.
 
